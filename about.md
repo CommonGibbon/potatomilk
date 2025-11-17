@@ -189,7 +189,7 @@ h2 {
 
 <div class="section media-section">
   <div class="media">
-    <img src="/assets/images/potato-milk.jpg" alt="Potato Milk product">
+    <img src="/assets/images/potato-milk.png" alt="Potato Milk product">
   </div>
   <div class="content">
     <h2>🚀 What is Potato Milk?</h2>
