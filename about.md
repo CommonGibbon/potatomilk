@@ -11,11 +11,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background: #f8f9fa;
+  background: #FFF8DC;
 }
 
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8B4513 0%, #6B4423 100%);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -35,7 +35,7 @@ body {
 }
 
 .section {
-  background: white;
+  background: #FAF0E6;
   padding: 40px;
   margin: 30px 0;
   border-radius: 8px;
@@ -50,20 +50,20 @@ body {
 }
 
 .feature-card {
-  background: #f8f9fa;
+  background: white;
   padding: 25px;
   border-radius: 8px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #00CED1;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .feature-card h3 {
-  color: #667eea;
+  color: #8B4513;
   margin-top: 0;
 }
 
 .cta-section {
-  background: #28a745;
+  background: #00CED1;
   color: white;
   padding: 40px;
   text-align: center;
@@ -85,17 +85,17 @@ body {
 .styled-table th, .styled-table td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #F5F5DC;
 }
 
 .styled-table th {
-  background-color: #667eea;
+  background-color: #8B4513;
   color: white;
   font-weight: 600;
 }
 
 .styled-table tr:hover {
-  background-color: #f8f9fa;
+  background-color: #FFF8DC;
 }
 
 .benefits-list {
@@ -105,12 +105,12 @@ body {
 
 .benefits-list li {
   padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #F5F5DC;
 }
 
 .benefits-list li:before {
   content: "✓ ";
-  color: #28a745;
+  color: #00CED1;
   font-weight: bold;
   margin-right: 10px;
 }
@@ -120,22 +120,28 @@ body {
   text-decoration: none;
   margin: 0 15px;
   padding: 10px 20px;
-  background: rgba(255,255,255,0.2);
+  background: rgba(139, 69, 19, 0.3);
   border-radius: 5px;
   display: inline-block;
   transition: background 0.3s;
 }
 
 .contact-links a:hover {
-  background: rgba(255,255,255,0.3);
+  background: rgba(139, 69, 19, 0.5);
 }
 
 .footer {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
-  color: #666;
+  color: #8B4513;
   font-size: 0.9em;
+}
+
+h2 {
+  color: #8B4513;
+  border-bottom: 2px solid #00CED1;
+  padding-bottom: 10px;
 }
 </style>
 
