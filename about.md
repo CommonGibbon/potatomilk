@@ -189,11 +189,11 @@ h2 {
 
 <div class="section media-section">
   <div class="media">
-    <img src="/assets/images/potato_milk.jpg" alt="Potato Milk product">
+    <img src="assets/images/potato_milk.jpg" alt="Potato Milk product">
   </div>
   <div class="content">
     <h2>🚀 What is Potato Milk?</h2>
-    <p>Potato Milk is a revolutionary mid-workout energizing drink specifically designed for endurance athletes. Made from premium potato starch and natural ingredients, it delivers sustained energy without the crash associated with traditional sports drinks.</p>
+    <p>Potato Milk is a revolutionary mid-workout energizing drink specifically designed for endurance athletes, competitive events, and everyday workouts. Made from oraganic potato starch and natural ingredients, it delivers sustained energy without the crash, keeping your brain and body fueled for longer periods.</p>
     <ul class="benefits-list">
       <li>Steady, complex-carb energy</li>
       <li>Gentle on the stomach</li>
@@ -209,8 +209,8 @@ h2 {
       <h3>Sustained Energy Release</h3>
       <ul class="benefits-list">
         <li>Complex carbohydrates from potato starch provide steady fuel</li>
-        <li>No sugar crashes or energy spikes</li>
-        <li>Perfect for long-distance training sessions</li>
+        <li>Sustained Energy Release with no sugar crashes</li>
+        <li>Perfect for training and competing</li>
       </ul>
     </div>
     
@@ -219,7 +219,7 @@ h2 {
       <ul class="benefits-list">
         <li>Gentle on the stomach during intense exercise</li>
         <li>No bloating or digestive discomfort</li>
-        <li>Rapid absorption for quick energy replenishment</li>
+        <li>Rapid absorption</li>
       </ul>
     </div>
     
@@ -240,11 +240,10 @@ h2 {
     <div class="feature-card">
       <h3>Ideal For:</h3>
       <ul class="benefits-list">
-        <li>Marathon runners</li>
-        <li>Cyclists</li>
-        <li>Triathletes</li>
-        <li>Ultra-endurance events</li>
-        <li>Long-distance swimmers</li>
+        <li>Endurance Althetics</li>
+        <li>Competitive Events</li>
+        <li>Training Sessions</li>
+        <li>Quick Fuel</li>
       </ul>
     </div>
     
