@@ -4,8 +4,10 @@ title: "about-potatomilk"
 permalink: /
 ---
 
-# 🥔 Potato Milk
-## The Ultimate Mid-Workout Fuel for Endurance Athletes
+<div class="hero">
+  <h1>🥔 Potato Milk</h1>
+  <h2>The Ultimate Mid-Workout Fuel for Endurance Athletes</h2>
+</div>
 
 ---
 
