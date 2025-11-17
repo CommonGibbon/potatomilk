@@ -15,13 +15,26 @@ body {
 }
 
 .hero {
+  position: relative;
   background: linear-gradient(135deg, #8B4513 0%, #6B4423 100%);
-  color: white;
+  color: #FFFFFF;
   padding: 60px 20px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 40px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,0.18); /* subtle overlay for contrast */
+  border-radius: 10px;
+}
+.hero > * { position: relative; } /* keep text above overlay */
+.hero h2 {
+  color: #FFF8DC;              /* cream */
+  font-weight: 500;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
 }
 
 .hero h1 {
@@ -29,10 +42,6 @@ body {
   margin-bottom: 10px;
 }
 
-.hero h2 {
-  font-size: 1.5em;
-  font-weight: 300;
-}
 
 .section {
   background: #FAF0E6;
@@ -143,6 +152,34 @@ h2 {
   border-bottom: 2px solid #00CED1;
   padding-bottom: 10px;
 }
+
+.media-section {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 28px;
+  align-items: center;
+}
+.media-section .media {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  background: #FAF0E6; /* cream */
+}
+.media-section .media img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.media-section .content h2 {
+  color: #8B4513; /* rich brown */
+  margin-top: 0;
+  border-bottom: 2px solid #00CED1; /* teal accent */
+  padding-bottom: 10px;
+}
+@media (max-width: 860px) {
+  .media-section { grid-template-columns: 1fr; }
+}
+
 </style>
 
 <div class="hero">
@@ -150,9 +187,19 @@ h2 {
   <h2>The Ultimate Mid-Workout Fuel for Endurance Athletes</h2>
 </div>
 
-<div class="section">
-  <h2>🚀 What is Potato Milk?</h2>
-  <p>Potato Milk is a revolutionary mid-workout energizing drink specifically designed for endurance athletes. Made from premium potato starch and natural ingredients, it delivers sustained energy without the crash associated with traditional sports drinks.</p>
+<div class="section media-section">
+  <div class="media">
+    <img src="/assets/images/potato-milk.jpg" alt="Potato Milk product">
+  </div>
+  <div class="content">
+    <h2>🚀 What is Potato Milk?</h2>
+    <p>Potato Milk is a revolutionary mid-workout energizing drink specifically designed for endurance athletes. Made from premium potato starch and natural ingredients, it delivers sustained energy without the crash associated with traditional sports drinks.</p>
+    <ul class="benefits-list">
+      <li>Steady, complex-carb energy</li>
+      <li>Gentle on the stomach</li>
+      <li>Plant-based and clean</li>
+    </ul>
+  </div>
 </div>
 
 <div class="section">
